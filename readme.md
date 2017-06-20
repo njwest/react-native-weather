@@ -1,4 +1,4 @@
-## react-native-weather: A dynamic weather widget for React Native apps
+## react-native-weather: A dynamic weather component for React Native apps
 
 react-native-weather provides a React Native `<WeatherWidget />` component that takes in props and generates a widget containing the current weather conditions, temperature, and chance of precipitation for a given location via the DarkSky.net weather API.
 
@@ -48,5 +48,7 @@ If you do not pass a location prop through WeatherWidget, the default text for t
 ### Credits
 
 react-native-weather was coded by [Nick West](https://www.nickwest.io "NickWest.io")
+
+react-native-weather was built for use with the [DarkSky.net Weather API](https://www.darksky.net)
 
 react-native-weather uses [Allessio Atzeni's Meteocons](http://www.alessioatzeni.com/meteocons/ "Meteocons by Allessio Atzeni")
