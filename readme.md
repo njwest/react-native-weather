@@ -19,21 +19,25 @@ To use the WeatherWidget, import the WeatherWidget from 'react-native-weather', 
 import { WeatherWidget } from 'react-native-weather'
 ...
 ```
-Then place the `<WeatherWidget />` component in your `render(){ return(); }` method, passing your API key, your latitude, and your longitude in as props:
+Then place the `<WeatherWidget />` component in your `render(){ return(); }` method, passing your API key, your latitude (lat), and your longitude(lng) through it as props:
 
 ```javascript
 ...
 render() {
   return(
-    <WeatherWidget api={"your-DarkSky.net-api-here"} lat={"lat"} lng={"lng"} />
+    <WeatherWidget
+      api={"your-DarkSky.net-api-here"}
+      lat={"lat"}
+      lng={"lng"}
+      />
   );
 }
 ```
 
-#####Note
+#####Note re: lat & lng
 Northern latitudes and eastern longitudes are positive values, while southern latitudes and western longitudes are negative(-) values.
 
-For example, if the location you are passing through the widget is in the northwestern hemisphere, you will pass it through as: `lat={"val"} lng={"-val"}`.
+i.e.: If the location you are passing through the widget is in the northwestern hemisphere, you will pass it through as: `lat={"val"} lng={"-val"}`.
 
 ###Optional props
 

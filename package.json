@@ -1,6 +1,6 @@
 {
   "name": "react-native-weather",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "A React Native weather widget, easily configurable via props.",
   "main": "index.js",
   "scripts": {
