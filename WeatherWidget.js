@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NetInfo, Image, View, Text, StyleSheet } from 'react-native';
+import { NetInfo, Image, View, Text, ActivityIndicator, StyleSheet } from 'react-native';
 
 class WeatherWidget extends Component {
   constructor(props) {
@@ -10,7 +10,6 @@ class WeatherWidget extends Component {
       temp: '',
       precipChance: '',
       summary: 'Weather is Offline',
-      isConnected: null,
       locationName: 'Current \nWeather'
     }
   }
@@ -30,7 +29,11 @@ class WeatherWidget extends Component {
 
   render() {
     if (this.state.isLoading) {
-      return (<Text>Loading...</Text>)
+      return (
+        <View style={styles.spinner}>
+          <ActivityIndicator size={'small'}/>
+        </View>
+      )
     }
 
     const icons = {
@@ -58,7 +61,7 @@ class WeatherWidget extends Component {
     return (
       <View style={styles.container}>
             <View style={styles.titleContainer}>
-              <Text style={styles.title}>{this.state.locationName}</Text>
+              <Text style={[styles.title, (this.props.location && this.props.location.length <= 13) && styles.customTitle]}>{this.state.locationName}</Text>
             </View>
             <View style={[styles.summaryContainer, (this.state.summary.length >= 20) && styles.summaryContainerLong]}>
               <Text style={styles.summary}>{this.state.summary}</Text>
@@ -101,10 +104,18 @@ const styles = StyleSheet.create({
     fontWeight: '500',
     textAlign: 'right'
   },
+  customTitle:{
+    marginTop: 13,
+    marginBottom: 13,
+    marginRight: 5,
+    color: 'black',
+    fontWeight: '500',
+    textAlign: 'right'
+  },
   summaryContainer: {
     flex: 1.5,
     flexDirection: 'row',
-    marginTop: 13
+    marginTop: 12
   },
   summaryContainerLong: {
     flex: 1.5,
@@ -121,12 +132,17 @@ const styles = StyleSheet.create({
   tempContainer: {
     flex: .5,
     flexDirection: 'column',
-    marginTop: 2,
+    marginTop: 3,
     marginRight: 15,
     alignItems: 'flex-end'
   },
   precipImage: {
     marginTop: 3
+  },
+  spinner: {
+    flex: -1,
+    marginTop: 12,
+    marginBottom: 12
   }
 });
 
