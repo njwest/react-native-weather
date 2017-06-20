@@ -1,6 +1,6 @@
 {
   "name": "react-native-weather",
-  "version": "0.2.0",
+  "version": "0.2.4",
   "description": "A React Native weather widget, easily configurable via props.",
   "main": "index.js",
   "scripts": {
@@ -12,14 +12,15 @@
   },
   "keywords": [
     "react",
-    "native",
+    "react native",
     "weather",
-    "weather",
-    "api",
-    "darksky.net"
+    "weather api",
+    "darksky.net",
+    "app widget",
+    "native app"
   ],
   "author": "Nick West",
-  "license": "MIT",
+  "license": "CC-BY-3.0",
   "bugs": {
     "url": "https://github.com/njwest/react-native-weather/issues"
   },
