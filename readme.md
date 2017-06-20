@@ -34,12 +34,12 @@ render() {
 }
 ```
 
-#####Note re: lat & lng
+##### Note re: lat & lng
 Northern latitudes and eastern longitudes are positive values, while southern latitudes and western longitudes are negative(-) values.
 
 i.e.: If the location you are passing through the widget is in the northwestern hemisphere, you will pass it through as: `lat={"val"} lng={"-val"}`.
 
-###Optional props
+### Optional props
 
 `<WeatherWidget />` also accepts the optional prop `location={"location"}`, which will render a string in the left title area of the widget.
 
