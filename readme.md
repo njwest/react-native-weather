@@ -1,6 +1,6 @@
-## react-native-weather: Weather widget for React Native apps
+## react-native-weather: A dynamic weather widget for React Native apps
 
-react-native-weather provides a React Native `<WeatherWidget />` component that takes in props and generates a widget containing the current weather condition, temperature , chance of precipitation, for a given location via the DarkSky.net weather API.
+react-native-weather provides a React Native `<WeatherWidget />` component that takes in props and generates a widget containing the current weather conditions, temperature, and chance of precipitation for a given location via the DarkSky.net weather API.
 
 In order to use this widget, you will need a DarkSky.net API key.  [Click here to sign up for a DarkSky API key.](https://darksky.net/dev/ "DarkSky.net API Sign Up")
 
