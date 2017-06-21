@@ -1,6 +1,6 @@
 {
   "name": "react-native-weather",
-  "version": "0.2.6",
+  "version": "0.2.71",
   "description": "A React Native weather widget, easily configurable via props.",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,17 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/njwest/react-native-weather.git"
+  },
+    "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-eslint": "^6.1.2",
+    "babel-jest": "^16.0.0",
+    "babel-preset-react-native": "^1.9.0",
+    "flow-bin": "0.40.0",
+    "jest": "17.0.0",
+    "react": "^16.0.0-alpha.3",
+    "react-native": "^0.43.0",
+    "react-test-renderer": "^15.3.2"
   },
   "keywords": [
     "react",
