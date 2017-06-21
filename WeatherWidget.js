@@ -88,13 +88,14 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
     position: 'relative',
     borderTopWidth: 1,
-    borderBottomColor: '#8294a0',
+    borderTopColor: '#8294a0',
     borderBottomWidth: 1,
     borderBottomColor: '#8294a0',
   },
   titleContainer:{
     flex: 1,
-    borderRightWidth: 1
+    borderRightWidth: 1,
+    borderRightColor: '#8294a0'
   },
   title:{
     marginTop: 5,
