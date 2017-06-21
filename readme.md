@@ -16,7 +16,7 @@ To use the WeatherWidget, import the WeatherWidget from 'react-native-weather', 
 
 ```javascript
 ...
-import { WeatherWidget } from 'react-native-weather'
+import { WeatherWidget } from 'react-native-weather';
 ...
 ```
 Then place the `<WeatherWidget />` component in your `render(){ return(); }` method, passing your API key, your latitude (lat), and your longitude(lng) through it as props:
