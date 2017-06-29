@@ -4,13 +4,13 @@ react-native-weather provides a React Native `<WeatherWidget />` component that 
 
 In order to use this widget, you will need a DarkSky.net API key.  [Click here to sign up for a DarkSky API key.](https://darksky.net/dev/ "DarkSky.net API Sign Up")
 
-## Installation:
+## Installation
 
 ```
 npm install --save react-native-weather
 ```
 
-## Usage:
+## Usage
 
 To use the WeatherWidget, import the WeatherWidget from 'react-native-weather', placing curly braces around WeatherWidget in your import statement:
 
