@@ -41,6 +41,9 @@ Northern latitudes and eastern longitudes are positive values, while southern la
 
 i.e.: If the location you are passing through the widget is in the northwestern hemisphere, you will pass it through as: `lat={"val"} lng={"-val"}`.
 
+![The Weather Widget in use in the Elephant Swamp Guide app](http://i.imgur.com/SwiRNQ7.jpg "The WeatherWidget in use in the Elephant Swamp trail guide app")
+
+
 ## Optional props
 
 `<WeatherWidget />` also accepts the optional prop `location={"location"}`, which will render a string in the left title area of the widget.
