@@ -1,7 +1,7 @@
 {
   "name": "react-native-weather",
-  "version": "0.2.9",
-  "description": "A React Native weather widget, easily configurable via props.",
+  "version": "0.2.10",
+  "description": "A React Native weather component, easily configurable via props.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
