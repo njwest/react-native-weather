@@ -67,7 +67,7 @@ The following is an example of the <WeatherWidget /> in use in the Elephant Swam
 
 ![The Weather Widget in use in the Elephant Swamp Guide app](http://i.imgur.com/H1MqHYv.png "The WeatherWidget in use in the Elephant Swamp trail guide app")
 
-Please feel free to email me (mail@nickwest.io) screenshots of react-native-weather in use in your app and I will post links/screenshots here!
+Please feel free to email me (mail@NickWest.io) screenshots of react-native-weather in use in your app and I will post links/screenshots here!
 
 ## Credits
 
@@ -79,4 +79,4 @@ react-native-weather uses [Allessio Atzeni's Meteocons](http://www.alessioatzeni
 
 ## Contribute!
 
-If you would like to contribute code to react-native-weather, contact me at mail@nickwest.io with your ideas!
+If you would like to contribute code to react-native-weather, contact me at mail@NickWest.io with your component and improvement ideas or [open up an issue](https://github.com/njwest/react-native-weather/issues "Open an Issue") to get my attention!
