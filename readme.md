@@ -63,7 +63,7 @@ If you do not pass a location prop through WeatherWidget, the default text for t
 
 ## Example Usage
 
-The following is an example of the <WeatherWidget /> in use in the Elephant Swamp Guide [iOS](https://itunes.apple.com/nz/app/elephant-swamp-guide/id1242677669?mt=8 "iOS") and [Android](https://play.google.com/store/apps/details?id=com.elephant_swamp_guide&hl=en "Android") mobile app.
+The following is an example of the `<WeatherWidget />` in use in the Elephant Swamp Guide [iOS](https://itunes.apple.com/nz/app/elephant-swamp-guide/id1242677669?mt=8 "iOS") and [Android](https://play.google.com/store/apps/details?id=com.elephant_swamp_guide&hl=en "Android") mobile app.
 
 ![The Weather Widget in use in the Elephant Swamp Guide app](http://i.imgur.com/H1MqHYv.png "The WeatherWidget in use in the Elephant Swamp trail guide app")
 
