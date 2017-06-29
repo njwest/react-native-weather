@@ -16,7 +16,9 @@ In order to use this widget, you will need a DarkSky.net API key.  [Click here t
 
 5. [Credits](https://github.com/njwest/react-native-weather#credits)
 
-5. [Contribute!](https://github.com/njwest/react-native-weather#contribute)
+6. [Contribute!](https://github.com/njwest/react-native-weather#contribute)
+
+7. [Support!](https://github.com/njwest/react-native-weather#support)
 
 ## Installation
 
@@ -80,3 +82,7 @@ react-native-weather uses [Allessio Atzeni's Meteocons](http://www.alessioatzeni
 ## Contribute!
 
 If you would like to contribute code to react-native-weather, contact me at mail@NickWest.io with your component and improvement ideas or [open up an issue](https://github.com/njwest/react-native-weather/issues "Open an Issue") to get my attention!
+
+## Support!
+
+Like this kind of thing? [Buy Nick a coffee via Patreon support!](https://www.patreon.com/nickwest)
